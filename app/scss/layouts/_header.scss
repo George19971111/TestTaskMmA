@@ -1,0 +1,33 @@
+.headingtop{
+    width:138px;
+    max-width: 100%;
+    height:480px;
+    background: #5A61ED;
+    position: relative;
+}
+.headingtop h1{
+    height:auto;
+    position: absolute;
+    bottom:90px;
+    left:2px;
+    transform: rotate(-90deg);
+    font-family: $fontPT;
+    font-weight: normal;
+    font-size: 49px;
+    width:200px;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    color:#fff;
+}
+@include DesktopMaxScreen(){
+    .headingtop{
+        width:138px;
+        transform: rotate(90deg);
+        height:81vw;
+        margin-top:-150px;
+        box-sizing: border-box;
+    }
+    .headingtop h1{
+       left:-30px;
+    }
+}

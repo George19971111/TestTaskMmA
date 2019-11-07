@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url("WorkSans-Bold.eot"); /* IE9 */
+    src: url("WorkSans-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("WorkSans-Bold.woff") format("woff"), /* chrome, firefox */
+    url("WorkSans-Bold.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("WorkSans-Bold.svg#Work Sans") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

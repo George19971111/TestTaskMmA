@@ -1,0 +1,31 @@
+
+@font-face{
+    font-family: 'PTSans-Regular';
+    font-style: normal;
+    src:local('PTSans-Regular'),
+    url('../fonts/PTSans-Regular.woff2') format('woff2'),
+    url('../fonts/PTSans-Regular.woff') format('woff'),
+    url('../fonts/PTSans-Regular.ttf') format('truetype'),
+    url('../fonts/PTSans-Regular.eot') format('eot');
+    font-display: swap;
+}
+@font-face{
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    src:local('WorkSans-Regular'),
+    url('../fonts/WorkSans-Regular.woff2') format('woff2'),
+    url('../fonts/WorkSans-Regular.woff') format('woff'),
+    url('../fonts/WorkSans-Regular.ttf') format('truetype'),
+    url('../fonts/WorkSans-Regular.eot') format('eot');
+    font-display: swap;
+}
+@font-face{
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    src:local('WorkSans-Bold'),
+    url('../fonts/WorkSans-Bold.woff2') format('woff2'),
+    url('../fonts/WorkSans-Bold.woff') format('woff'),
+    url('../fonts/WorkSans-Bold.ttf') format('truetype'),
+    url('../fonts/WorkSans-Bold.eot') format('eot');
+    font-display: swap;
+}
